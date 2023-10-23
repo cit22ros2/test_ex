@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (crane_x7_examples) JobQueued: {'identifier': 'crane_x7_examples', 'dependencies': OrderedDict()}
+[0.000712] (crane_x7_examples) JobStarted: {'identifier': 'crane_x7_examples'}
+[0.094168] (crane_x7_examples) JobProgress: {'identifier': 'crane_x7_examples', 'progress': 'cmake'}
+[0.094370] (crane_x7_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/keitaro/ros2_ws/src/test_ex', '-DCMAKE_INSTALL_PREFIX=/home/keitaro/ros2_ws/src/test_ex/install/crane_x7_examples'], 'cwd': '/home/keitaro/ros2_ws/src/test_ex/build/crane_x7_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keitaro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/keitaro/ros2_ws/install/crane_x7_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/keitaro'), ('OLDPWD', '/home/keitaro/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1173'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keitaro/wss/ws2/install:/home/keitaro/ros2_ws/install:/home/keitaro/ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keitaro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keitaro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kei-laptop-P1-S6LP-BL:@/tmp/.ICE-unix/1124,unix/kei-laptop-P1-S6LP-BL:/tmp/.ICE-unix/1124'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6043d06e_350a_472e_9f66_21c33c91ace3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WSW3C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keitaro/wss/ws2/install/pkg1:/home/keitaro/ros2_ws/install/mypkg:/home/keitaro/ros2_ws/install/hand_test:/home/keitaro/ros2_ws/install/crane_x7:/home/keitaro/ros2_ws/install/crane_x7_examples:/home/keitaro/ros2_ws/install/crane_x7_moveit_config:/home/keitaro/ros2_ws/install/crane_x7_gazebo:/home/keitaro/ros2_ws/install/crane_x7_control:/home/keitaro/ros2_ws/install/crane_x7_description:/home/keitaro/ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keitaro/ros2_ws/src/test_ex/build/crane_x7_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/keitaro/wss/ws2/build/pkg1:/home/keitaro/wss/ws2/install/pkg1/lib/python3.10/site-packages:/home/keitaro/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/keitaro/ros2_ws/install/hand_test/lib/python3.10/site-packages:/home/keitaro/ros2_ws/install/crane_x7_description/local/lib/python3.10/dist-packages:/home/keitaro/ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/keitaro/ros2_ws/install/crane_x7:/home/keitaro/ros2_ws/install/crane_x7_examples:/home/keitaro/ros2_ws/install/crane_x7_moveit_config:/home/keitaro/ros2_ws/install/crane_x7_gazebo:/home/keitaro/ros2_ws/install/crane_x7_control:/home/keitaro/ros2_ws/install/crane_x7_description:/home/keitaro/wss/ws2/install/pkg1:/home/keitaro/ros2_ws/install/mypkg:/home/keitaro/ros2_ws/install/hand_test:/home/keitaro/ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.100041] (-) TimerEvent: {}
+[0.200379] (-) TimerEvent: {}
+[0.300980] (-) TimerEvent: {}
+[0.401533] (-) TimerEvent: {}
+[0.413146] (crane_x7_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501783] (-) TimerEvent: {}
+[0.602360] (-) TimerEvent: {}
+[0.607379] (crane_x7_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.620555] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.695477] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.702434] (-) TimerEvent: {}
+[0.703470] (crane_x7_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.704196] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.705140] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.709452] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.794346] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.802540] (-) TimerEvent: {}
+[0.802759] (crane_x7_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.803082] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.803618] (crane_x7_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.816273] (crane_x7_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.902613] (-) TimerEvent: {}
+[1.002862] (-) TimerEvent: {}
+[1.022238] (crane_x7_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.102993] (-) TimerEvent: {}
+[1.162380] (crane_x7_examples) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.203120] (-) TimerEvent: {}
+[1.257671] (crane_x7_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.268107] (crane_x7_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.285548] (crane_x7_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.303231] (-) TimerEvent: {}
+[1.317175] (crane_x7_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.352546] (crane_x7_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403358] (-) TimerEvent: {}
+[1.503627] (-) TimerEvent: {}
+[1.603894] (-) TimerEvent: {}
+[1.648737] (crane_x7_examples) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[1.661403] (crane_x7_examples) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.704010] (-) TimerEvent: {}
+[1.804277] (-) TimerEvent: {}
+[1.890688] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.904395] (-) TimerEvent: {}
+[2.004653] (-) TimerEvent: {}
+[2.104924] (-) TimerEvent: {}
+[2.205190] (-) TimerEvent: {}
+[2.305462] (-) TimerEvent: {}
+[2.405733] (-) TimerEvent: {}
+[2.505998] (-) TimerEvent: {}
+[2.606295] (-) TimerEvent: {}
+[2.706574] (-) TimerEvent: {}
+[2.806855] (-) TimerEvent: {}
+[2.853810] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.883921] (crane_x7_examples) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.906962] (-) TimerEvent: {}
+[2.995608] (crane_x7_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.001760] (crane_x7_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.007058] (-) TimerEvent: {}
+[3.107299] (-) TimerEvent: {}
+[3.142867] (crane_x7_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.175493] (crane_x7_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.207422] (-) TimerEvent: {}
+[3.230952] (crane_x7_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.249541] (crane_x7_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.307516] (-) TimerEvent: {}
+[3.407783] (-) TimerEvent: {}
+[3.460349] (crane_x7_examples) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.507905] (-) TimerEvent: {}
+[3.531126] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.608032] (-) TimerEvent: {}
+[3.658614] (crane_x7_examples) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.708150] (-) TimerEvent: {}
+[3.808461] (-) TimerEvent: {}
+[3.889673] (crane_x7_examples) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.889953] (crane_x7_examples) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.908574] (-) TimerEvent: {}
+[4.008835] (-) TimerEvent: {}
+[4.109104] (-) TimerEvent: {}
+[4.209377] (-) TimerEvent: {}
+[4.309753] (-) TimerEvent: {}
+[4.410021] (-) TimerEvent: {}
+[4.510288] (-) TimerEvent: {}
+[4.610564] (-) TimerEvent: {}
+[4.648692] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.710668] (-) TimerEvent: {}
+[4.810953] (-) TimerEvent: {}
+[4.911233] (-) TimerEvent: {}
+[5.011514] (-) TimerEvent: {}
+[5.111797] (-) TimerEvent: {}
+[5.212092] (-) TimerEvent: {}
+[5.312372] (-) TimerEvent: {}
+[5.352786] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.412476] (-) TimerEvent: {}
+[5.512761] (-) TimerEvent: {}
+[5.613047] (-) TimerEvent: {}
+[5.673436] (crane_x7_examples) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[5.713148] (-) TimerEvent: {}
+[5.813454] (-) TimerEvent: {}
+[5.913737] (-) TimerEvent: {}
+[6.014010] (-) TimerEvent: {}
+[6.114303] (-) TimerEvent: {}
+[6.214665] (-) TimerEvent: {}
+[6.236310] (crane_x7_examples) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core \n'}
+[6.239995] (crane_x7_examples) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.314754] (-) TimerEvent: {}
+[6.408362] (crane_x7_examples) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[6.414848] (-) TimerEvent: {}
+[6.515084] (-) TimerEvent: {}
+[6.580650] (crane_x7_examples) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[6.596477] (crane_x7_examples) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[6.615193] (-) TimerEvent: {}
+[6.635356] (crane_x7_examples) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[6.635578] (crane_x7_examples) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.661672] (crane_x7_examples) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[6.677953] (crane_x7_examples) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[6.715303] (-) TimerEvent: {}
+[6.722479] (crane_x7_examples) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[6.722800] (crane_x7_examples) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[6.815427] (-) TimerEvent: {}
+[6.915697] (-) TimerEvent: {}
+[7.015940] (-) TimerEvent: {}
+[7.116220] (-) TimerEvent: {}
+[7.216493] (-) TimerEvent: {}
+[7.316782] (-) TimerEvent: {}
+[7.417062] (-) TimerEvent: {}
+[7.517326] (-) TimerEvent: {}
+[7.617614] (-) TimerEvent: {}
+[7.717877] (-) TimerEvent: {}
+[7.818173] (-) TimerEvent: {}
+[7.918576] (-) TimerEvent: {}
+[7.924336] (crane_x7_examples) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.941070] (crane_x7_examples) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[7.984364] (crane_x7_examples) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[7.985919] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.018636] (-) TimerEvent: {}
+[8.054192] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.118728] (-) TimerEvent: {}
+[8.219007] (-) TimerEvent: {}
+[8.225089] (crane_x7_examples) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[8.232848] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.240391] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.319133] (-) TimerEvent: {}
+[8.405894] (crane_x7_examples) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[8.419247] (-) TimerEvent: {}
+[8.519512] (-) TimerEvent: {}
+[8.573327] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.619639] (-) TimerEvent: {}
+[8.719905] (-) TimerEvent: {}
+[8.735480] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[8.736985] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[8.737904] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[8.738850] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[8.739781] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[8.740837] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[8.741451] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[8.741899] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[8.742864] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[8.743875] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[8.744883] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[8.745852] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[8.747203] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[8.748636] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[8.749655] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[8.750659] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[8.751715] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[8.752701] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[8.753788] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[8.754820] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[8.756216] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[8.756633] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[8.757420] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[8.758438] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[8.759582] (crane_x7_examples) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[8.820028] (-) TimerEvent: {}
+[8.920308] (-) TimerEvent: {}
+[9.020606] (-) TimerEvent: {}
+[9.120882] (-) TimerEvent: {}
+[9.221149] (-) TimerEvent: {}
+[9.321425] (-) TimerEvent: {}
+[9.421697] (-) TimerEvent: {}
+[9.521968] (-) TimerEvent: {}
+[9.531031] (crane_x7_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.622063] (-) TimerEvent: {}
+[9.644547] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.650566] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.652035] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.652133] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.658148] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.658352] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.660014] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.662194] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.663702] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.669773] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.669884] (crane_x7_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.671406] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.673937] (crane_x7_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.691570] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.691740] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.691813] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.691875] (crane_x7_examples) StderrLine: {'line': b'    src/cartesian_path.cpp\n'}
+[9.692023] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.692112] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.692179] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.692240] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.692299] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.692466] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.692556] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.692622] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.692684] (crane_x7_examples) StderrLine: {'line': b'    src/pose_groupstate.cpp\n'}
+[9.692743] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.692804] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.692865] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.692924] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.692983] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.693042] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.693101] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.693287] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.693361] (crane_x7_examples) StderrLine: {'line': b'    src/joint_values.cpp\n'}
+[9.693424] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.693483] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.693550] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.693644] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.693703] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.693779] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.693853] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.693910] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.693968] (crane_x7_examples) StderrLine: {'line': b'    src/pick_and_place.cpp\n'}
+[9.694070] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.694128] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.694186] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.694243] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.694308] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.694366] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.694523] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.694639] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.694700] (crane_x7_examples) StderrLine: {'line': b'    src/pick_and_place_tf.cpp\n'}
+[9.694760] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.694819] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.694877] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.694936] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.694993] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.695050] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.695108] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.695165] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.695222] (crane_x7_examples) StderrLine: {'line': b'    src/aruco_detection.cpp\n'}
+[9.695279] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.695336] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.695393] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.695450] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.695508] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.695566] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.695623] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.695680] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.695738] (crane_x7_examples) StderrLine: {'line': b'    src/color_detection.cpp\n'}
+[9.695795] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.695852] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.695909] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.695967] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.696024] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.696081] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.696139] (crane_x7_examples) StderrLine: {'line': b'  Cannot find source file:\n'}
+[9.696196] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.696254] (crane_x7_examples) StderrLine: {'line': b'    src/point_cloud_detection.cpp\n'}
+[9.696312] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.696369] (crane_x7_examples) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[9.696427] (crane_x7_examples) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[9.696485] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.696542] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.705984] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.706111] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: cartesian_path\n'}
+[9.706212] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.706312] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.706411] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.706511] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: pose_groupstate\n'}
+[9.706636] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.706697] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.706755] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.706821] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: joint_values\n'}
+[9.706879] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.706936] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.706993] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.707051] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: pick_and_place\n'}
+[9.707108] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.707165] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.707222] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.707280] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: pick_and_place_tf\n'}
+[9.707338] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.707395] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.707456] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.707532] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: aruco_detection\n'}
+[9.707630] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.707693] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.707751] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.707809] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: color_detection\n'}
+[9.707895] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.707968] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.708058] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[9.708139] (crane_x7_examples) StderrLine: {'line': b'  No SOURCES given to target: point_cloud_detection\n'}
+[9.708227] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[9.708289] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[9.708350] (crane_x7_examples) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[9.722198] (-) TimerEvent: {}
+[9.729774] (crane_x7_examples) CommandEnded: {'returncode': 1}
+[9.791371] (crane_x7_examples) JobEnded: {'identifier': 'crane_x7_examples', 'rc': 1}
+[9.802194] (-) EventReactorShutdown: {}

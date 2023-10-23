@@ -1,0 +1,16 @@
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex//launch/example.launch.py
+/home/keitaro/wss/test_ex/install/test_ex/share/ament_index/resource_index/package_run_dependencies/test_ex
+/home/keitaro/wss/test_ex/install/test_ex/share/ament_index/resource_index/parent_prefix_path/test_ex
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/environment/ament_prefix_path.sh
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/environment/ament_prefix_path.dsv
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/environment/path.sh
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/environment/path.dsv
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/local_setup.bash
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/local_setup.sh
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/local_setup.zsh
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/local_setup.dsv
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/package.dsv
+/home/keitaro/wss/test_ex/install/test_ex/share/ament_index/resource_index/packages/test_ex
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/cmake/test_exConfig.cmake
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/cmake/test_exConfig-version.cmake
+/home/keitaro/wss/test_ex/install/test_ex/share/test_ex/package.xml
