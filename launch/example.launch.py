@@ -69,7 +69,7 @@ def generate_launch_description():
     )
 
     example_node = Node(name=[LaunchConfiguration('example'), '_node'],
-                        package='crane_x7_examples',
+                        package='test_ex',
                         executable=LaunchConfiguration('example'),
                         output='screen',
                         parameters=[{'robot_description': description_loader.load()},
